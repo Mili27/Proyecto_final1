@@ -8,6 +8,7 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
+    max-width: 100%;
 }
 
 header {
@@ -153,7 +154,24 @@ main {
 
 .servicios-content{
     text-align: center;
-    margin: 50px 0;
+    margin: 60px 0;
+}
+
+.img-content{
+    display: flex;
+    justify-content: space-between; /* Para centrar las cajas y separarlas uniformemente */
+    gap: 70px; /* Incrementa el espacio entre las cajas */
+    max-width: 900px; /* Limita el ancho máximo para mantener las cajas dentro de un contenedor */
+    margin: 0 auto; 
+}
+
+.caja {
+    background-color: #02635D;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    width: calc(50% - 25px); /* Ajusta el ancho de las cajas según sea necesario */
+    box-sizing: border-box;
 }
 
 section h3 {
@@ -166,15 +184,20 @@ section div {
     margin: 10px;
 }
 
-section div p {
-    background-color: #02635D;
-    color: #FFFFFF;
-    padding: 10px;
-    border-radius: 5px;
+.caja img {
+    width: 83%;
+    height: auto;
+    align-items: center;
+    border-radius: 20px; 
+    margin: 10px auto;
+}
+
+.caja p {
+    color: white;
+    font-size: 1em;
 }
 
 footer {
-    background-color: #034748;
     color: #FFFFFF;
     padding: 50px 20px;
     text-align: left;
