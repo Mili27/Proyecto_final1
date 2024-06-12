@@ -10,21 +10,21 @@ body {
 
 header {
     padding: 10px;
-    height: 60px; /* Ajusta la altura según sea necesario */
+    height: 60px; 
     display: flex;
-    justify-content: space-between; /* Distribuye los elementos dentro del header */
+    justify-content: space-between; 
     align-items: center;
-    position: fixed; /* Para mantener el header fijo */
-    top: 0; /* Asegura que esté en la parte superior de la página */
-    width: 100%; /* Hace que el header ocupe todo el ancho de la página */
-    z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
-    background-color: #83C4BE; /* Asegura que el background-color cubra todo el header */
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    background-color: #83C4BE; 
 }
 .container-logo {
     display: flex;
-    justify-content: space-between; /* Distribuye los elementos dentro del contenedor logo */
+    justify-content: space-between; 
     align-items: center;
-    width: 100%; /* Asegura que el contenedor ocupe todo el ancho del header */
+    width: 100%; 
 }
 
 .logo {
@@ -63,6 +63,7 @@ nav .barra-nav {
     background-color: aliceblue;
 }
 
+/*Fin del header*/
 
 .presentacion {
     background-color: #034748;
@@ -126,6 +127,8 @@ nav .barra-nav {
     max-height: 300px;
 }
 
+/*Fin presentacion*/
+
 main {
     padding: 0px;
 }
@@ -163,6 +166,8 @@ main {
     text-indent: 280px;
 }
 
+/*Fin del inicio*/
+
 .acerca-de-content {
     background-color: #027882;
     color: aliceblue;
@@ -197,6 +202,8 @@ main {
     font-size: 1em; /* Tamaño del texto */
     color: white; /* Color del texto */
 }
+
+/*Fin acerca de*/
 
 .servicios-content {
     text-align: center;
@@ -242,6 +249,8 @@ section div {
     color: white;
     font-size: 1em;
 }
+
+/*Fin proyectos*/
 
 footer {
     display: flex;
