@@ -23,6 +23,10 @@ En este proyecto utilicé las siguientes tecnologías:
 HTML5
 CSS3
 
+GITHUB PAGES 
+
+https://mili27.github.io/Proyecto_final1/
+
 CONTACTO
 
 Si deseas contactarme, puedes hacerlo utilizando los siguientes medios:
